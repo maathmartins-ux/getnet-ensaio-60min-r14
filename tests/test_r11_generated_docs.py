@@ -313,7 +313,9 @@ def test_every_dense_results_block_opens_with_how_to_read_and_placeholders_do_no
     # todo bloco que o docs/RESULTS.md hospeda tem o seu "como ler" (bloco novo lá pede a frase dele)
     template = (ROOT / "docs" / "RESULTS.md").read_text(encoding="utf-8")
     hosted = set(re.findall(r"<!-- ([\w-]+):begin -->", template))
-    assert hosted <= set(fill_readme.HOW_TO_READ) | {"eval"} == set(blocks)
+    # "reading" (a própria leitura do placar) e "eval-live-splits" (tabelas por split, lidas pelo "como ler" do
+    # eval-live) são blocos que o fill_readme --final acrescenta ao RESULTS.md e não abrem com "Como ler"
+    assert hosted - {"reading", "eval-live-splits"} <= set(fill_readme.HOW_TO_READ) | {"eval"} == set(blocks)
     # e o render continua idempotente com a linha nova (o --check compara o bloco inteiro)
     text = "\n".join(f"<!-- {t}:begin -->\n<!-- {t}:end -->" for t in ("eval", "eval-live", "judge", "replan",
                                                                         "timeline"))
