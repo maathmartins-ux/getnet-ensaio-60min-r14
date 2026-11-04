@@ -1,0 +1,82 @@
+id,split,pergunta,resposta,fontes,ferramentas,humano,nota,tipo_falha,c1,c2,c3,selecao
+official-01,official,What's the difference between the Get Clássica and the Get Smart?,"The main difference is that the Get Smart is an Android smart terminal that runs apps and management features. The Get Clássica is a card machine with a single rate across the main card brands.
+
+**Get Smart**
+- It can manage stock, take orders, close tabs, load a menu and issue invoices on the machine. It can also integrate with your business system [1].
+- It can replace a computer and fiscal printer at the counter [3].
+- It can exchange messages between kitchen and floor [4].
+- Whether it prints the NF-e depends on the app you choose. Most available apps issue it [4].
+- It can be used as a TEF solution [6].
+- It supports payment split for commission or tips [7].
+- App developers charge for app subscriptions. Getnet charges rent and administrative fees [9].
+
+**Get Clássica**
+- The 2025 page, which may be outdated, says:
+  - It is free with sales from R$10,000.
+  - It comes with a free account and card.
+  - You receive payments in 2 days.
+  - It is valid for CPF and CNPJ.
+  - It has a single rate across the main brands [5].
+- Rates:
+  - Debit: 1.69%.
+  - Credit 1x: 3.79%.
+  - Credit 2x: 7.98%.
+  - Credit 3x: 8.47%.
+  - Credit 4x: 8.96%.
+  - Credit 5x: 9.45% [5].
+
+**Free machine thresholds**
+- Monthly sales of R$10 thousand qualify for a Get Mini or Get Clássica.
+- Monthly sales of R$60 thousand qualify for a Get Mini, Get Clássica or Get Smart [5].
+- Voucher (VA/VR) and crediário sales don't count toward the rent waiver [5].
+
+The sources don't give the Get Smart's rate table or rent amount, so I can't compare its rates with the Get Clássica's. A human agent can help with that if you'd like.",sup-get-smart-10 prod-todas-maquininhas-07 sup-get-smart-08 sup-get-smart-16 prod-get-classica-01 prod-get-smart-07 prod-get-smart-08 prod-todas-maquininhas-08 sup-taxas-19 prod-get-tap-03,,pass,,,sim,nao,sim,aleatoria
+official-02,official,What's the weather forecast in Porto Alegre tomorrow?,"Tomorrow (2026-11-05) in Porto Alegre, Open-Meteo forecasts a low of 17 °C and a high of 24 °C. The chance of rain is up to 43%, with drizzle expected.
+
+Source: https://open-meteo.com/",https://open-meteo.com/,weather_forecast,pass,,,sim,nao,sim,aleatoria
+official-03,official,When will the money from yesterday's sales be deposited?,"Yesterday's sales (03/11/2026) total R$ 695,50. They are deposited on different dates depending on how the customer paid:
+
+- **Pix:** R$ 120,00 was deposited on 03/11/2026.
+- **Debit:** R$ 95,50 was deposited on 04/11/2026.
+- **Credit (30-day plan):** R$ 480,00 is scheduled for 03/12/2026. It hasn't been deposited yet.
+
+So R$ 215,50 has already been deposited, and R$ 480,00 is still to come.",,get_settlements,pass,,,sim,nao,sim,aleatoria
+official-04,official,Do I need a bank account to receive my sales via Pix?,"Not necessarily. The sources don't say a bank account is required to receive Pix sales. Pix on Getnet works through a QR Code generated on its capture channels: physical terminals, TEF Auttar and Ecommerce [5].
+
+Getnet offers a free digital account for your business, the Get Conta. You can use it to send and receive money and to sell through Pix [7]. Receiving sales is one of the activities that keeps a Get Conta active [6].
+
+The sources don't say whether you can receive Pix sales in an account at another bank instead of a Get Conta. I can pass your question to a human agent if you'd like.",sup-duvidas-57 sup-pix-mais-respostas-18 prod-pix-02 sup-pix-mais-respostas-24 sup-duvidas-82 sup-get-conta-15 sup-get-conta-02 prod-pix-01 prod-todas-maquininhas-02 prod-get-smart-08,,pass,,,sim,nao,sim,aleatoria
+official-05,official,"My card machine won't connect to the internet, what should I do?","Your machine T1988B (Get Clássica) is offline. It connects by chip, shows ""no signal"", and has been offline for 5 hours. Its last contact was 04/11/2026 at 07:58. Your other machine, T1988A (Get Smart), is online on Wi-Fi with a good signal.
+
+Here is what to try on T1988B:
+1. **Check the chip.** With the machine off, open the back cover. Insert the chip in the slot marked SIM1 or SIM2, metal side down. Close the cover and turn the machine on. Wait for it to show a connected network (2G or 3G) [1].
+2. **Run a communication test.** Press the function button (F, # or your model's equivalent). Choose option 2 (maintenance), then option 1 (communication test) [6].
+3. **If you see error ADQ 1-84 (signal fluctuation).** Press Function and enter 25. Enter the Operator Password, then select Function 46. Then run a test sale [4].
+4. **If you see error ADQ 1-87 (chip registration error).** Confirm the chip is properly inserted. Press Function, enter 25, enter the Merchant Password, then select Function 46 and Function 90. Then run a test sale [7].
+5. **Power cycle if needed.** The steps depend on your model. For example, press the green key to turn it on, or hold the red key for 5 seconds to turn it off [2].
+
+I can propose a support ticket for T1988B with the reason ""no signal"". Nothing is opened until you confirm, and the proposal expires after 15 minutes. Do you want me to propose it?
+
+The sources don't say what to do if the machine still can't connect after these steps. A human agent can help with that if you want one.",sup-duvidas-05 sup-operacional-01 prod-crediario-08 sup-erro-adq-1-84-01 sup-pix-09 sup-duvidas-06 sup-erro-adq-1-87-01 sup-get-smart-04 prod-get-smart-08 sup-get-smart-06,get_terminals,pass,,,sim,nao,sim,aleatoria
+official-06,official,How does receivables advance (antecipação) work with Getnet?,"Receivables advance (antecipação) lets you receive credit-card sales before the normal settlement date. This applies to sales paid in full or in installments [6].
+
+- **Availability:** One example says a sale made on 04/03 can be advanced from 05/03 (D+1). Another says a sale due to be credited on 03/04 can be advanced until 31/03 (D-3) [7].
+- **Default schedule:** Debit sales are available the next day. For credit, you can choose to receive everything in 2 days, in 30 days, or month by month according to the card installments [8].
+- **Automatic advance:** It is a condition for the fee exemption on the ""Receba Conforme suas Vendas"" plan. Getnet assesses each contract individually, because it involves credit approval [3].
+- **Collateral (gravame):** If you use your receivables as collateral for a loan, your sales schedule goes to the lender. You then receive your sales in your Get Conta, up to the outstanding loan balance [1][2].
+- **E-commerce:** Advance of e-commerce sales is blocked for 6 months [5].
+
+I couldn't find the advance fee or the steps to request one. I can propose an advance for a specific amount in reais. You would need to confirm it, and then a human agent would need to approve it. I can also hand your case to a human agent if you'd like.",sup-antecipacao-de-vendas-05 sup-antecipacao-de-vendas-02 sup-duvidas-100 sup-antecipacao-de-vendas-08 sup-link-de-pagamento-12 sup-duvidas-12 sup-antecipacao-de-vendas-11 sup-antecipacao-de-vendas-13 sup-taxas-01 prod-crediario-02,,pass,,,sim,nao,sim,aleatoria
+official-07,official,What's the euro exchange rate today?,"Today (2026-11-04), 1 EUR is R$ 6.1627 on the buy side and R$ 6.1644 on the sell side. The source is Banco Central do Brasil (PTAX), from the 12:11 intermediate bulletin: https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes",https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes,currency_rate,pass,,,sim,nao,sim,aleatoria
+official-08,official,My card machine is showing a transaction decline error.,"Your machine's declines look like card or issuer problems, not a terminal fault. There were 2 declines today (04/11/2026), both on terminal T1988A:
+
+- **TX1007** (10:05, credit, R$ 210,00): code 51, insufficient balance or credit limit. The buyer should contact the card issuer or pay with another card or Pix.
+- **TX1008** (10:40, debit, R$ 75,00): code 05, not authorized by the issuer. The buyer should contact the card-issuing bank. Retrying won't help.
+
+T1988A is online on Wi-Fi with good signal. Its last contact was 04/11/2026 12:57.
+
+Your other machine, T1988B, is offline with no signal. It has been offline for 5 hours and has no declines in this period. If T1988B is the one showing the error, I can propose a support ticket for it. You would need to confirm the proposal before anything is opened.",,get_transactions get_terminals,pass,,,sim,nao,sim,aleatoria
+official-09,official,How many installments can I split a sale into with the crediário?,"You can split a sale into up to 48 installments with the crediário on a credit card [1][5]. The card issuer sets the actual installment limit under its own credit policies, and interest rates can vary by issuer [1][3].
+
+You can simulate the installments and interest on the terminal before the sale. Choose credit > crediário, then enter the card and the amount. The simulation is for reference only, because the issuer decides whether to approve the transaction when it is contracted [3].",prod-crediario-03 prod-crediario-05 sup-crediario-03 sup-parcelado-01 prod-crediario-01,,pass,,,sim,nao,sim,aleatoria
+official-10,official,Can I sell through WhatsApp using the Payment Link?,"Yes, you can sell through WhatsApp with the Payment Link. You send the link to your customers on WhatsApp, social networks, email or SMS. They click it, choose a payment method and complete the purchase [1]. The Getnet Payment Link page also lists selling through WhatsApp or social networks as a benefit (""Venda de onde estiver"") [2].",sup-link-de-pagamento-12 prod-link-de-pagamento-01 prod-link-de-pagamento-02 sup-link-de-pagamento-08 sup-link-de-pagamento-07,,pass,,,sim,nao,sim,aleatoria
