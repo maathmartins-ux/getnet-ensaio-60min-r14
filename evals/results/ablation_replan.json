@@ -1,8 +1,8 @@
 {
   "mode": "in-process",
   "provider": "offline",
-  "recorded_at": "2026-11-04T16:05:39Z",
-  "git_sha": "97d828f-dirty",
+  "recorded_at": "2026-11-04T16:07:29Z",
+  "git_sha": "1d7efa2",
   "live": false,
   "split": "replan",
   "status": "complete",
@@ -165,8 +165,8 @@
       "language_undetected": 1,
       "recall@3": null,
       "mrr": null,
-      "p50_ms": 40.4,
-      "p95_ms": 413.9,
+      "p50_ms": 44.3,
+      "p95_ms": 462.1,
       "cost_usd": 0.0,
       "crashes": 0,
       "ci": {
@@ -243,8 +243,8 @@
       "language_undetected": 1,
       "recall@3": null,
       "mrr": null,
-      "p50_ms": 40.4,
-      "p95_ms": 413.9,
+      "p50_ms": 44.3,
+      "p95_ms": 462.1,
       "cost_usd": 0.0,
       "crashes": 0,
       "ci": {
@@ -304,8 +304,8 @@
       "id": "replan-01",
       "split": "replan",
       "message": "A Getnet tem maquininha que aceita pagamento em criptomoeda bitcoin?",
-      "ms": 413.9,
-      "turn_ms": 413.9,
+      "ms": 462.1,
+      "turn_ms": 462.1,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -374,7 +374,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 29.8,
+          "ms": 32.3,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -401,8 +401,8 @@
       "id": "replan-02",
       "split": "replan",
       "message": "Does Getnet offer a card machine that accepts bitcoin payments?",
-      "ms": 60.2,
-      "turn_ms": 60.1,
+      "ms": 57.1,
+      "turn_ms": 57.0,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -498,8 +498,8 @@
       "id": "replan-03",
       "split": "replan",
       "message": "Qual é o seguro de vida que a Getnet vende junto com a maquininha Get Ultra Max?",
-      "ms": 48.7,
-      "turn_ms": 48.7,
+      "ms": 62.2,
+      "turn_ms": 62.2,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -568,7 +568,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 5.6,
+          "ms": 9.1,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -595,8 +595,8 @@
       "id": "replan-04",
       "split": "replan",
       "message": "How much does the Get Ultra Max terminal cost per month?",
-      "ms": 64.5,
-      "turn_ms": 64.4,
+      "ms": 50.4,
+      "turn_ms": 50.4,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -665,7 +665,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 12.1,
+          "ms": 11.0,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -692,8 +692,8 @@
       "id": "replan-05",
       "split": "replan",
       "message": "A Getnet empresta dinheiro para comprar imóvel?",
-      "ms": 60.5,
-      "turn_ms": 60.4,
+      "ms": 42.1,
+      "turn_ms": 42.1,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -762,7 +762,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 5.9,
+          "ms": 5.7,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -789,8 +789,8 @@
       "id": "replan-06",
       "split": "replan",
       "message": "Can Getnet finance a mortgage for my store building?",
-      "ms": 38.7,
-      "turn_ms": 38.7,
+      "ms": 33.5,
+      "turn_ms": 33.4,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -849,8 +849,8 @@
       "id": "replan-07",
       "split": "replan",
       "message": "Qual o telefone do gerente regional da Getnet em Manaus?",
-      "ms": 40.3,
-      "turn_ms": 40.3,
+      "ms": 44.3,
+      "turn_ms": 44.2,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -919,7 +919,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 5.4,
+          "ms": 5.6,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -946,8 +946,8 @@
       "id": "replan-08",
       "split": "replan",
       "message": "What is the name of the Getnet regional manager in Recife?",
-      "ms": 43.4,
-      "turn_ms": 43.4,
+      "ms": 48.7,
+      "turn_ms": 48.7,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -1016,7 +1016,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 6.8,
+          "ms": 9.4,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -1043,8 +1043,8 @@
       "id": "replan-09",
       "split": "replan",
       "message": "A Getnet tem plano de previdência privada para lojistas?",
-      "ms": 40.3,
-      "turn_ms": 40.3,
+      "ms": 48.5,
+      "turn_ms": 48.4,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -1113,7 +1113,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 7.3,
+          "ms": 9.9,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -1140,8 +1140,8 @@
       "id": "replan-10",
       "split": "replan",
       "message": "Does Getnet sell private pension plans to merchants?",
-      "ms": 40.4,
-      "turn_ms": 40.3,
+      "ms": 51.9,
+      "turn_ms": 51.9,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -1210,7 +1210,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 6.2,
+          "ms": 8.5,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -1237,8 +1237,8 @@
       "id": "replan-11",
       "split": "replan",
       "message": "Minha maquininha não está conectando, o que eu faço?",
-      "ms": 74.3,
-      "turn_ms": 74.2,
+      "ms": 94.5,
+      "turn_ms": 94.5,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -1271,7 +1271,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação."
       ],
       "steps": [
@@ -1279,13 +1279,13 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 42.9,
+          "ms": 50.3,
           "tools": [
             {
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -1299,7 +1299,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "pt",
@@ -1321,8 +1321,8 @@
       "id": "replan-12",
       "split": "replan",
       "message": "My terminal has no signal, how do I fix it?",
-      "ms": 29.4,
-      "turn_ms": 29.3,
+      "ms": 32.3,
+      "turn_ms": 32.2,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -1355,7 +1355,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error."
       ],
       "steps": [
@@ -1369,7 +1369,7 @@
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -1383,7 +1383,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "en",
@@ -1405,8 +1405,8 @@
       "id": "replan-13",
       "split": "replan",
       "message": "A maquininha ficou offline, como resolvo?",
-      "ms": 29.1,
-      "turn_ms": 29.1,
+      "ms": 35.9,
+      "turn_ms": 35.8,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -1439,7 +1439,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação."
       ],
       "steps": [
@@ -1447,13 +1447,13 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 0.5,
+          "ms": 0.6,
           "tools": [
             {
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -1467,7 +1467,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "pt",
@@ -1489,8 +1489,8 @@
       "id": "replan-14",
       "split": "replan",
       "message": "The card machine says it's offline. What should I check?",
-      "ms": 29.3,
-      "turn_ms": 29.3,
+      "ms": 36.4,
+      "turn_ms": 36.4,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -1523,7 +1523,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error."
       ],
       "steps": [
@@ -1531,13 +1531,13 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 0.6,
+          "ms": 0.7,
           "tools": [
             {
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -1551,7 +1551,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "en",
@@ -1573,8 +1573,8 @@
       "id": "replan-15",
       "split": "replan",
       "message": "Minhas vendas estão sendo recusadas na máquina, por quê?",
-      "ms": 38.0,
-      "turn_ms": 37.9,
+      "ms": 44.4,
+      "turn_ms": 44.4,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -1617,7 +1617,7 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 1.0,
+          "ms": 1.3,
           "tools": [
             {
               "name": "get_transactions",
@@ -1661,8 +1661,8 @@
       "id": "replan-16",
       "split": "replan",
       "message": "Why are my card payments being declined on the machine?",
-      "ms": 46.1,
-      "turn_ms": 46.0,
+      "ms": 36.5,
+      "turn_ms": 36.5,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -1705,7 +1705,7 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 0.9,
+          "ms": 0.8,
           "tools": [
             {
               "name": "get_transactions",
@@ -1749,8 +1749,8 @@
       "id": "replan-17",
       "split": "replan",
       "message": "A máquina deu erro de recusa numa venda hoje, o que significa?",
-      "ms": 32.9,
-      "turn_ms": 32.9,
+      "ms": 31.7,
+      "turn_ms": 31.7,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -1837,8 +1837,8 @@
       "id": "replan-18",
       "split": "replan",
       "message": "A sale was rejected on my terminal, what does the error mean?",
-      "ms": 42.9,
-      "turn_ms": 42.8,
+      "ms": 37.1,
+      "turn_ms": 37.1,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -1881,7 +1881,7 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 0.9,
+          "ms": 0.6,
           "tools": [
             {
               "name": "get_transactions",
@@ -1927,8 +1927,8 @@
       "id": "replan-19",
       "split": "replan",
       "message": "Minha maquininha perdeu a conexão com a internet desde cedo",
-      "ms": 39.2,
-      "turn_ms": 39.1,
+      "ms": 40.9,
+      "turn_ms": 40.9,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -1961,7 +1961,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação."
       ],
       "steps": [
@@ -1975,7 +1975,7 @@
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -1989,7 +1989,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "pt",
@@ -2011,8 +2011,8 @@
       "id": "replan-20",
       "split": "replan",
       "message": "My POS lost its internet connection this morning, help",
-      "ms": 32.3,
-      "turn_ms": 32.2,
+      "ms": 42.2,
+      "turn_ms": 42.1,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -2045,7 +2045,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error."
       ],
       "steps": [
@@ -2059,7 +2059,7 @@
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -2073,7 +2073,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "en",
@@ -2097,8 +2097,8 @@
       "id": "replan-01",
       "split": "replan",
       "message": "A Getnet tem maquininha que aceita pagamento em criptomoeda bitcoin?",
-      "ms": 413.9,
-      "turn_ms": 413.9,
+      "ms": 462.1,
+      "turn_ms": 462.1,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -2167,7 +2167,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 29.8,
+          "ms": 32.3,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -2194,8 +2194,8 @@
       "id": "replan-02",
       "split": "replan",
       "message": "Does Getnet offer a card machine that accepts bitcoin payments?",
-      "ms": 60.2,
-      "turn_ms": 60.1,
+      "ms": 57.1,
+      "turn_ms": 57.0,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -2291,8 +2291,8 @@
       "id": "replan-03",
       "split": "replan",
       "message": "Qual é o seguro de vida que a Getnet vende junto com a maquininha Get Ultra Max?",
-      "ms": 48.7,
-      "turn_ms": 48.7,
+      "ms": 62.2,
+      "turn_ms": 62.2,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -2361,7 +2361,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 5.6,
+          "ms": 9.1,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -2388,8 +2388,8 @@
       "id": "replan-04",
       "split": "replan",
       "message": "How much does the Get Ultra Max terminal cost per month?",
-      "ms": 64.5,
-      "turn_ms": 64.4,
+      "ms": 50.4,
+      "turn_ms": 50.4,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -2458,7 +2458,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 12.1,
+          "ms": 11.0,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -2485,8 +2485,8 @@
       "id": "replan-05",
       "split": "replan",
       "message": "A Getnet empresta dinheiro para comprar imóvel?",
-      "ms": 60.5,
-      "turn_ms": 60.4,
+      "ms": 42.1,
+      "turn_ms": 42.1,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -2555,7 +2555,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 5.9,
+          "ms": 5.7,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -2582,8 +2582,8 @@
       "id": "replan-06",
       "split": "replan",
       "message": "Can Getnet finance a mortgage for my store building?",
-      "ms": 38.7,
-      "turn_ms": 38.7,
+      "ms": 33.5,
+      "turn_ms": 33.4,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -2642,8 +2642,8 @@
       "id": "replan-07",
       "split": "replan",
       "message": "Qual o telefone do gerente regional da Getnet em Manaus?",
-      "ms": 40.3,
-      "turn_ms": 40.3,
+      "ms": 44.3,
+      "turn_ms": 44.2,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -2712,7 +2712,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 5.4,
+          "ms": 5.6,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -2739,8 +2739,8 @@
       "id": "replan-08",
       "split": "replan",
       "message": "What is the name of the Getnet regional manager in Recife?",
-      "ms": 43.4,
-      "turn_ms": 43.4,
+      "ms": 48.7,
+      "turn_ms": 48.7,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -2809,7 +2809,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 6.8,
+          "ms": 9.4,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -2836,8 +2836,8 @@
       "id": "replan-09",
       "split": "replan",
       "message": "A Getnet tem plano de previdência privada para lojistas?",
-      "ms": 40.3,
-      "turn_ms": 40.3,
+      "ms": 48.5,
+      "turn_ms": 48.4,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -2906,7 +2906,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 7.3,
+          "ms": 9.9,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -2933,8 +2933,8 @@
       "id": "replan-10",
       "split": "replan",
       "message": "Does Getnet sell private pension plans to merchants?",
-      "ms": 40.4,
-      "turn_ms": 40.3,
+      "ms": 51.9,
+      "turn_ms": 51.9,
       "business_date": "2026-11-04",
       "expected_intent": "knowledge",
       "checks": {
@@ -3003,7 +3003,7 @@
           "agent": "faq",
           "status": "ok",
           "reason": null,
-          "ms": 6.2,
+          "ms": 8.5,
           "tools": [],
           "decided_by": "router",
           "why": "plan"
@@ -3030,8 +3030,8 @@
       "id": "replan-11",
       "split": "replan",
       "message": "Minha maquininha não está conectando, o que eu faço?",
-      "ms": 74.3,
-      "turn_ms": 74.2,
+      "ms": 94.5,
+      "turn_ms": 94.5,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -3064,7 +3064,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação."
       ],
       "steps": [
@@ -3072,13 +3072,13 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 42.9,
+          "ms": 50.3,
           "tools": [
             {
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -3092,7 +3092,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "pt",
@@ -3114,8 +3114,8 @@
       "id": "replan-12",
       "split": "replan",
       "message": "My terminal has no signal, how do I fix it?",
-      "ms": 29.4,
-      "turn_ms": 29.3,
+      "ms": 32.3,
+      "turn_ms": 32.2,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -3148,7 +3148,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error."
       ],
       "steps": [
@@ -3162,7 +3162,7 @@
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -3176,7 +3176,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "en",
@@ -3198,8 +3198,8 @@
       "id": "replan-13",
       "split": "replan",
       "message": "A maquininha ficou offline, como resolvo?",
-      "ms": 29.1,
-      "turn_ms": 29.1,
+      "ms": 35.9,
+      "turn_ms": 35.8,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -3232,7 +3232,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação."
       ],
       "steps": [
@@ -3240,13 +3240,13 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 0.5,
+          "ms": 0.6,
           "tools": [
             {
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -3260,7 +3260,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "pt",
@@ -3282,8 +3282,8 @@
       "id": "replan-14",
       "split": "replan",
       "message": "The card machine says it's offline. What should I check?",
-      "ms": 29.3,
-      "turn_ms": 29.3,
+      "ms": 36.4,
+      "turn_ms": 36.4,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -3316,7 +3316,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error."
       ],
       "steps": [
@@ -3324,13 +3324,13 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 0.6,
+          "ms": 0.7,
           "tools": [
             {
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -3344,7 +3344,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "en",
@@ -3366,8 +3366,8 @@
       "id": "replan-15",
       "split": "replan",
       "message": "Minhas vendas estão sendo recusadas na máquina, por quê?",
-      "ms": 38.0,
-      "turn_ms": 37.9,
+      "ms": 44.4,
+      "turn_ms": 44.4,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -3410,7 +3410,7 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 1.0,
+          "ms": 1.3,
           "tools": [
             {
               "name": "get_transactions",
@@ -3454,8 +3454,8 @@
       "id": "replan-16",
       "split": "replan",
       "message": "Why are my card payments being declined on the machine?",
-      "ms": 46.1,
-      "turn_ms": 46.0,
+      "ms": 36.5,
+      "turn_ms": 36.5,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -3498,7 +3498,7 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 0.9,
+          "ms": 0.8,
           "tools": [
             {
               "name": "get_transactions",
@@ -3542,8 +3542,8 @@
       "id": "replan-17",
       "split": "replan",
       "message": "A máquina deu erro de recusa numa venda hoje, o que significa?",
-      "ms": 32.9,
-      "turn_ms": 32.9,
+      "ms": 31.7,
+      "turn_ms": 31.7,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -3630,8 +3630,8 @@
       "id": "replan-18",
       "split": "replan",
       "message": "A sale was rejected on my terminal, what does the error mean?",
-      "ms": 42.9,
-      "turn_ms": 42.8,
+      "ms": 37.1,
+      "turn_ms": 37.1,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -3674,7 +3674,7 @@
           "agent": "records",
           "status": "ok",
           "reason": null,
-          "ms": 0.9,
+          "ms": 0.6,
           "tools": [
             {
               "name": "get_transactions",
@@ -3720,8 +3720,8 @@
       "id": "replan-19",
       "split": "replan",
       "message": "Minha maquininha perdeu a conexão com a internet desde cedo",
-      "ms": 39.2,
-      "turn_ms": 39.1,
+      "ms": 40.9,
+      "turn_ms": 40.9,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -3754,7 +3754,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação."
       ],
       "steps": [
@@ -3768,7 +3768,7 @@
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -3782,7 +3782,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "pt",
@@ -3804,8 +3804,8 @@
       "id": "replan-20",
       "split": "replan",
       "message": "My POS lost its internet connection this morning, help",
-      "ms": 32.3,
-      "turn_ms": 32.2,
+      "ms": 42.2,
+      "turn_ms": 42.1,
       "business_date": "2026-11-04",
       "expected_intent": "troubleshoot",
       "checks": {
@@ -3838,7 +3838,7 @@
         }
       ],
       "evidence": [
-        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
+        "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}",
         "[policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error."
       ],
       "steps": [
@@ -3852,7 +3852,7 @@
               "name": "get_terminals",
               "args": {},
               "ok": true,
-              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1"
+              "preview": "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1"
             }
           ],
           "decided_by": "router",
@@ -3866,7 +3866,7 @@
           ]
         }
       ],
-      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:03\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:05\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
+      "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}]}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
       "unsupported_claims": [],
       "claims_action": "none",
       "expected_language": "en",
