@@ -296,7 +296,7 @@ Cada decisão com a alternativa descartada e o número que a decidiu. Os número
   agentes Sonnet, juiz Opus ou de outra família (`JUDGE_PROVIDER=openai_compat`). Ferramentas com JSON Schema e
   identidade do servidor (`src/app/tools.py`); saída estruturada no router e no juiz; cache de prompt no system e
   nas tools de cada papel; cassete grava cada resposta do LLM para o replay offline no CI.
-- **Na construção:** uma sessão principal do Claude Code escreveu a SPEC e os casos, integrou e mediu; subagentes em worktrees separados fizeram o corpus (K), o roteamento (R), as tools do CRM (T), os casos e a segurança (Q) e a documentação (D); dois autores cegos escreveram o held-out e um coletor buscou perguntas reais de lojistas com link; dois rotuladores cegos rotularam o gold de busca; uma sessão revisora apontou correções que entraram por merge; o kit trouxe o motor (`src/app/*.py`), o eval, os scripts e a CI; no relógio foi escrito só o domínio (corpus, tools, prompts, regras do router, casos, gold e docs); detalhe em [docs/PROCEDENCIA.md](docs/PROCEDENCIA.md).
+- **Na construção:** o kit trouxe o motor (`src/app/*.py`), o eval, os scripts e a CI; o domínio (corpus, CRM simulado, casos, gold de busca, prompts, regras e docs do domínio) veio montado da tentativa cronometrada anterior deste desafio, com a origem e o commit declarados em [docs/PROCEDENCIA.md](docs/PROCEDENCIA.md). No relógio, uma sessão principal do Claude Code integrou, mediu e corrigiu; dois autores cegos (subagentes que não viram o código nem os casos) escreveram de novo o held-out e um coletor buscou perguntas reais de lojistas com link; pessoas conferiram às cegas respostas ao vivo na página de rotulagem; uma sessão revisora apontou correções que entraram por merge.
 - **Na avaliação:** LLM como juiz com canários e um gabarito de calibração (rótulos escritos a partir da SPEC; humanos
   quando houver rotulagem); rascunho de rótulo pelo modelo com revisão do dono linha a linha
   (`python -m evals.error_analysis`), separado da rotulagem cega.
@@ -317,9 +317,10 @@ conta como **resolvida** sem humano, com todo fato de referência e com fonte.
 - **Live** (`--live`): por split com teto de US$ proporcional ao tamanho, `--repeat` (pass^k), manchete **oficiais
   resolvidas** (sem humano + todo fato de referência + fonte), juiz no mesmo processo depois de cada split,
   cassete para o replay no CI (`--replay`, piso = taxas da gravação aceita).
-- **Humano**: análise de erros em ~60 traces reais (rascunho do modelo, edições do dono contadas, um modo de falha
-  por checagem) e held-out cego rotulado na página (passa/falha ponta a ponta; a intenção é diagnóstico).
-  No relógio rodaram: suíte offline, gate do eval, fumaça ao vivo dos oficiais e UMA bateria ao vivo integral (13 splits, oficiais e memória com 3 repetições, juiz no mesmo processo) mais a ablação do replanejamento nas perguntas reais. Não rodaram: rodada 2 depois das correções, `check.py --docker --scale` no código final (a imagem foi aquecida antes) e o vídeo.
+- **Humano**: conferência às cegas de respostas ao vivo na página de rotulagem (2 exemplos de treino com gabarito,
+  depois cada resposta sem a nota automática nem o veredito do juiz), com a concordância entre as pessoas e com o juiz
+  em `docs/RESULTS.md`; held-out escrito por autores cegos (passa/falha ponta a ponta; a intenção é diagnóstico).
+  No relógio rodaram: suíte offline, gate do eval, fumaça ao vivo dos oficiais e a bateria ao vivo integral (oficiais e memória com 3 repetições, juiz no mesmo processo) mais a ablação do replanejamento nas perguntas reais. Imagem, smoke do container e 2 réplicas (`check.py --docker --scale`) rodam no job `check` da CI do commit final (link no topo): o container da sessão de construção não tem docker. {{RODADA_2_E_VIDEO}}
 
 ## 7. Perguntas da entrevista, respondidas
 
@@ -328,11 +329,11 @@ As perguntas que uma entrevista técnica faria, respondidas com o número medido
 | Pergunta | Resposta curta | Onde está a prova |
 |---|---|---|
 | Onde a memória perde informação? | o split `memory` ao vivo (`evals/results/live_memory.json`) mede duas coisas separadas: se o fato de um turno anterior chega à resposta (linha de memória do §0) e se a intenção do seguimento acerta; cada falha, caso a caso e pela primeira checagem que falhou, está em `docs/FAILURE_MODES.md` (modos `memory` e `intent`). O fato de OUTRA conversa só chega pelo perfil de longo prazo (`app/memory.py`), e é aí que um caso entre conversas pode perder | §0, `docs/FAILURE_MODES.md` e `docs/RESULTS.md` |
-| Quanto do kit foi escrito depois das correções anteriores? | o motor, o eval e os scripts vieram do kit; o domínio (corpus, tools, regras, prompts, casos, gold) foi escrito no relógio — tabela em `docs/PROCEDENCIA.md` | `docs/PROCEDENCIA.md` |
+| Quanto do kit foi escrito depois das correções anteriores? | o motor, o eval e os scripts vieram do kit; o domínio (corpus, tools, regras, prompts, casos, gold) veio montado da tentativa anterior deste desafio, com origem e commit declarados; no relógio: held-out e perguntas reais novos e cegos, todas as medições, a conferência humana, as correções e a documentação | `docs/PROCEDENCIA.md` |
 | Como medir o ganho do replanejamento em perguntas reais? | 40 perguntas reais com link rodaram com e sem o achado `needs` no mesmo commit (`evals/results/live_real.json` × `evals/results/ablation_replan_no_needs_live.json`); o juiz julgou o braço com `needs` | `evals/results/ablation_replan*.json` |
 
 <!-- sem-prova:begin (prova inexistente nesta entrega; a linha volta quando existir)
-| Quais respostas oficiais o juiz reprova, e por quê, se intenção e ferramentas acertam? | na rodada 1 o juiz aprovou as 30 execuções oficiais (fundamentadas e úteis); fora dos oficiais reprovou `dependent-09` e `q-offvar-06-pt` (`docs/FAILURE_MODES.md`); sem rodada 2, não há antes × depois | `docs/JUDGE_DIFF.md` |
+| Quais respostas oficiais o juiz reprova, e por quê, se intenção e ferramentas acertam? | o juiz lê o texto das fontes e marca cada execução (fundamentada, útil, tipo de falha); as reprovações, caso a caso, estão em `docs/FAILURE_MODES.md`; o antes × depois da correção, no mesmo código final, em `docs/JUDGE_DIFF.md` | `docs/JUDGE_DIFF.md` |
 sem-prova:end -->
 
 ## 8. Procedência e linha do tempo

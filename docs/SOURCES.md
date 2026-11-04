@@ -36,6 +36,7 @@ tool `get_transactions` (tabela do domínio).
 Cuidados conhecidos do corpus:
 - páginas de produto trazem texto de campanha com ano ("para vender mais em 2025") ao lado das taxas: a data que vale
   é o `fetched_at` do trecho, e a resposta cita a página, sem tratar o ano da campanha como vigência;
-- a página da Get Clássica tem um trecho de modelo da página (ficha técnica com marcador `{{recebimento}}`, sem
-  dado): ele pode subir na busca pelo nome do produto; as taxas, o prazo de recebimento e "para quem é" da Get
-  Clássica estão no 1º trecho da página, e o redator do faq busca de novo por item antes de dizer que falta.
+- a página da Get Clássica tem um trecho de modelo da página (ficha técnica com marcador de campo entre chaves
+  duplas, sem dado): trechos assim saem do índice na carga (`src/app/rag.py`, `load_docs`, métrica
+  `template_chunks_dropped_total`); as taxas, o prazo de recebimento e "para quem é" da Get Clássica estão no 1º
+  trecho da página, e o redator do faq busca de novo por item antes de dizer que falta.
