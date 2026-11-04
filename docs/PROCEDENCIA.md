@@ -90,7 +90,7 @@ arquivos gerados, como `evals/results/`, ficam fora da conta):
 | `Dockerfile` | 74 | 0 | 0 | 0 |
 | `Makefile` | 38 | 0 | 0 | 0 |
 | `OWNERSHIP.json` | 89 | 0 | 0 | 0 |
-| `README.md` | 380 | 7 | 6 | 1 |
+| `README.md` | 380 | 35 | 23 | 1 |
 | `data` | 60 | 0 | 0 | 0 |
 | `data/crm` | 35 | 0 | 0 | 0 |
 | `data/intent_examples.d` | 22 | 1 | 1 | 1 |
@@ -99,7 +99,7 @@ arquivos gerados, como `evals/results/`, ficam fora da conta):
 | `docker-compose.hardened.yml` | 54 | 0 | 0 | 0 |
 | `docker-compose.scale.yml` | 31 | 0 | 0 | 0 |
 | `docker-compose.yml` | 94 | 0 | 0 | 0 |
-| `docs` | 1134 | 326 | 3 | 1 |
+| `docs` | 1134 | 747 | 13 | 4 |
 | `docs/adr` | 401 | 0 | 0 | 0 |
 | `evals` | 8925 | 353 | 0 | 1 |
 | `evals/cases.d` | 127 | 0 | 0 | 0 |
@@ -109,7 +109,7 @@ arquivos gerados, como `evals/results/`, ficam fora da conta):
 | `evals/proxy` | 286 | 0 | 0 | 0 |
 | `evals/retrieval.d` | 66 | 0 | 0 | 0 |
 | `evals/retrieval.drafts` | 15 | 0 | 0 | 0 |
-| `evals/validation` | 0 | 968 | 0 | 0 |
+| `evals/validation` | 0 | 1135 | 0 | 0 |
 | `ops` | 808 | 0 | 0 | 0 |
 | `pyproject.toml` | 56 | 0 | 0 | 0 |
 | `requirements-dev.lock` | 252 | 0 | 0 | 0 |
@@ -117,10 +117,10 @@ arquivos gerados, como `evals/results/`, ficam fora da conta):
 | `requirements.lock` | 149 | 0 | 0 | 0 |
 | `scripts` | 6974 | 0 | 186 | 2 |
 | `src/app` | 15807 | 2 | 2 | 1 |
-| `tests` | 23474 | 0 | 0 | 0 |
+| `tests` | 23474 | 3 | 1 | 1 |
 | `tests/fixtures` | 122 | 0 | 0 | 0 |
 
-Total: **61794** linhas do kit (commit `a2320ad`) e **4122** escritas no relógio (6% do total). Arquivos do kit alterados no relógio: 8. Fora da conta, por serem gerados: 151101 linhas em `evals/results/`.
+Total: **61794** linhas do kit (commit `a2320ad`) e **4741** escritas no relógio (7% do total). Arquivos do kit alterados no relógio: 12. Fora da conta, por serem gerados: 151102 linhas em `evals/results/`.
 <!-- kit:end -->
 
 Linha do tempo commit a commit, com as tags `clock-start` e `clock-end`: [TIMESHEET.md](TIMESHEET.md).

@@ -368,8 +368,10 @@ e como comparar pela primeira entrega.
 | 16:22:29 | 34 | docs: DEMO com as respostas reais da rodada 1 |
 | 16:30:06 | 42 | merge: README coerente com o domínio montado |
 | 16:30:13 | 42 | merge: conferência humana às cegas (2 rotuladores) |
+| 16:31:40 | 43 | readme: números e linha do tempo (fill_readme, último passo) |
+| 16:37:31 | 49 | fix-ci: teste dos blocos do RESULTS.md aceita os blocos que o fill_readme --final acrescenta (reading, eval-live-splits) |
 
-Relógio: **42 min**, 17 commits.
+Relógio: **42 min**, 19 commits.
 <!-- timeline:end -->
 
 </details>

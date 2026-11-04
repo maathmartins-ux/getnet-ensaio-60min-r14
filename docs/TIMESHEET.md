@@ -1,6 +1,6 @@
 # Linha do tempo (gerada do `git log`)
 
-Relógio: **42 min** de 04/11/2026 15:48:30 a 16:30:13 (tag clock-start à tag clock-end; horário do commit, fuso UTC). 14 commits dentro do relógio, 0 depois e 1 antes (declarados abaixo).
+Relógio: **42 min** de 04/11/2026 15:48:30 a 16:30:13 (tag clock-start à tag clock-end; horário do commit, fuso UTC). 14 commits dentro do relógio, 2 depois e 1 antes (declarados abaixo).
 Maior rajada: 7 commits em até 10 min a partir de 15:57:17.
 
 | min | hora | autor | arquivos | commit | relógio |
@@ -20,5 +20,9 @@ Maior rajada: 7 commits em até 10 min a partir de 15:57:17.
 | 26.8 | 16:15:17 | Claude | 3 | `7f5bb4e` eval: 2ª rotuladora (Bianca) na conferência às cegas: as 2 pessoas concordam nas 10 (AC1 1 | dentro |
 | 33.9 | 16:22:24 | Claude | 30 | `1a20f8d` eval: rodada 1 ao vivo integral (13 splits complete no fdcb685; juiz; ablação no_needs no  | dentro |
 | 34.0 | 16:22:29 | Claude | 1 | `022c5b4` docs: DEMO com as respostas reais da rodada 1 | dentro |
+| 43.2 | 16:31:40 | Claude | 7 | `6645d77` readme: números e linha do tempo (fill_readme, último passo) | pós-relógio |
+| 49.0 | 16:37:31 | Claude | 1 | `c9f87ac` fix-ci: teste dos blocos do RESULTS.md aceita os blocos que o fill_readme --final acrescen | pós-relógio |
 
 Commits antes do relógio: anteriores ao início (o repositório antes do scaffold); não contam no tempo declarado.
+
+Commits pós-relógio: não contam no tempo declarado e não entram no que foi medido no prazo.
