@@ -76,10 +76,11 @@
   "de_pagina_congelada": 20,
   "do_texto_de_hoje": 0,
   "paginas": [
+   "3d24d86373b7",
    "51221c7885f8"
   ]
  },
  "rotulos_de_outra_bateria": null,
- "aviso_juiz": null,
+ "aviso_juiz": "20 rótulo(s) sem veredito do juiz sobre o texto rotulado (fora do juiz × humano): rode o juiz na bateria ou, se a página foi congelada, `python -m evals.judge --validation`",
  "aviso": "só 10 rótulos: abaixo de 20 não dá para confiar"
 }

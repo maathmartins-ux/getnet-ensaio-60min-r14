@@ -1,0 +1,167 @@
+{
+ "amostra": "9500e07a3e80",
+ "em": "2026-11-04T16:23:44+00:00",
+ "regra": "rótulo de pessoa só se compara com veredito do juiz, checagem ou outra pessoa sobre o MESMO texto: o da página congelada (evals/validation/<amostra>.json) ou, sem ela, a resposta de hoje em evals/results; rótulo de outro texto sai de toda conta e é listado",
+ "baterias": [
+  "fdcb685"
+ ],
+ "itens": [
+  {
+   "id": "approval-03",
+   "split": "approval",
+   "plantada": false,
+   "selecao": "aleatoria",
+   "texto_sha": "db036f80804c8433",
+   "bateria": "fdcb685",
+   "arquivo": "live_approval.json",
+   "checks": {
+    "intent": true,
+    "route": true,
+    "language": true,
+    "tools": true,
+    "pending_action": true,
+    "numbers": true,
+    "claims": true
+   },
+   "entrada_do_juiz": {
+    "message": "Abra um chamado técnico para a minha maquininha T1988B que está sem sinal",
+    "answer": "Proponho abrir um chamado técnico para a maquininha T1988B (Get Clássica) com o motivo \"sem sinal\". Ele está **proposto, aguardando sua confirmação** (código A-8ecbf55a) e ainda não foi aberto. A proposta expira em 15 minutos. Você confirma a abertura?\n\nA maquininha está offline, conectada por chip e sem sinal. O último contato foi em 04/11/2026 às 08:07, e ela está offline há 5 horas.\n\nEnquanto isso, você pode tentar o passo a passo de conexão por chip [1]:\n- Com a máquina desligada, abra a tampa traseira e confira se o chip está no local indicado (SIM1 ou SIM2), com a parte metálica para baixo.\n- Feche a tampa, ligue a máquina e aguarde a conexão de rede de dados.\n- Quando aparecer rede conectada (2G ou 3G), faça um teste de comunicação.\n\nSe aparecer o erro ADQ 1-87, confira se o chip está bem inserido. Depois faça esta sequência [5]:\n1. Tecla de Função, número 25.\n2. Senha do Lojista, Função 46 e Função 90.\n3. Faça uma venda teste.\n\nAs fontes não trazem um passo a passo específico para o modelo T1988B. Se quiser, posso encaminhar você a um atendente humano.",
+    "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}], \"calculado_em_codigo\": [{\"lista\": \"terminals\", \"itens\": 2, \"por_status\": {\"offline\": {\"itens\": 1}, \"online\": {\"itens\": 1}}}], \"nota_calculo\": \"Totais e contagens acima foram calculados em código: use-os, não some nem conte.\"}\n- {\"ok\": false, \"needs_confirmation\": true, \"action_id\": \"A-8ecbf55a\", \"risk\": \"normal\", \"args\": {\"terminal_id\": \"T1988B\", \"reason\": \"sem_sinal\"}}\n- Dúvidas e Perguntas Frequentes | Getnet: A Get Smart aceita pagamento com auxilio emergencial?\nA Get Smart aceita pagamento com auxilio emergencial?\nSim, basta fazer o processo de pagamento com\n, selecionando a opção débito.\nComo insiro o Chip na minha máquina?\nComo insiro o Chip na minha máquina?\nSiga os passos a seguir:\n– Com a máquina desligada, abra a tampa na parte de trás\n– Insira o chip no local destinado, sinalizado com SIM1 ou SIM2, com a parte metálica voltada para baixo\n– Feche a tampa, ligue a máquina e aguarde a conexão de rede de dados\n– Com a indicação de rede conectada (2G ou 3G), a máquina está pronta para uso\n– Faça um teste de comunicação para verificar a conectividade do seu chip, seguindo os passos:\n- Getnet | Maquininha de cartão: Melhores taxas e opções grátis: Escolha a melhor forma para finalizar sua contratação\nFalar com Especialista\nContinuar no site\n* Horario de funcionamento:\nSeg à sex das 7h as 23h\nSábado das 9h as 15h\nRecebeu sua maquininha de outra pessoa?\nCadastre-se aqui para ativá-la em seu nome\nSe você já adquiriu sua maquininha em nosso site, não precisa realizar este cadastro\nQUERO ME CADASTRAR\nImpulsione suas vendas de onde estiver\nLeve sua maquininha e ganhe os serviços abaixo para acelerar suas vendas\nComece a vender agora e pague apenas a taxa de transação\nSimule suas vendas\nAqui, você encontra taxas especiais para todas as bandeiras de cartões.\n- Getnet | Maquininha POS 3G + Wi-Fi | 4020-4011: Contrato de Credenciamento\nPlataforma de aplicativos com os principais sofwares do mercado\nUma loja com mais de 150 soluções que agregam valor, agilidade e ec0nomia para o seu negócio. Soluções como cashback, giftback, controle de estoque, a sistemas de gestão completos para o seu negócio.\nNossa loja de aplicativos com os principais softwares do país, disponíveis para baixar e usar\nTransforme sua Get Smart em um terminal de autoatendimento\nSomente um aplicativo aberto: o usuário não poderá abrir outros aplicativo Senha necessária para ativar e desativar o Modo Quiosque e para acessar configurações do terminal Tela sempre ligada; Pronto para ser colocado em um tótem de autoatendimento.\n- Arquivos operacional - Getnet: Como ligo ou desligo minha máquina?\nComo ligo ou desligo minha máquina?\nConfira o modelo da sua maquininha e siga as instruções como mostra abaixo:\nLIGAR: Pressione a tecla verde DESLIGAR: Pressione a tecla “ . ” (ponto) e a tecla amarela ao mesmo tempo, durante 2 segundos\nLIGAR: Pressione a tecla “ ” (seta para cima) DESLIGAR: Pressione a tecla “ . ” (ponto) e a tecla amarela ao mesmo tempo, durante 2 segundos\nLIGAR E DESLIGAR: Conecte na tomada para ligar e retire da tomada para desligar\nLIGAR: Pressione a tecla verde durante 5 segundos DESLIGAR: Pressione a tecla vermelha durante 5 segundos\nO que é Chargeback?\n- Erro ADQ 1-87: erro com o registro do CHIP - Getnet: Erro ADQ 1-87: erro com o registro do CHIP\nQuando ocorre: No momento da transação.\n1. Confirme se o CHIP está devidamente inserido no terminal\n2. Clique na tecla de Função\n3. Insira o número 25\n4. A tela ficará verde confirmando a ação\n5. Insira a Senha do Lojista\n6. Selecione a Função 46\n7. A tela ficará verde confirmando a ação\n8. Selecione a Função 90\n9. A tela ficará verde confirmando a ação, novamente\n10. Faça uma venda teste.\nRespondeu à sua dúvida?\nVeja os nossos vídeos\nCom as principais dicas e informações:\nAinda não tem o Aplicativo Getnet Brasil?\nClique abaixo e baixe agora\nAcesse o manual da sua maquininha\nAcesse a nossa lista de manuais navegáveis.\nClique aqui · Fale já · Vamos começar\n- [policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação.",
+    "source_ids": [
+     "sup-duvidas-05",
+     "prod-todas-maquininhas-04",
+     "prod-get-smart-05",
+     "sup-operacional-01",
+     "sup-erro-adq-1-87-01"
+    ],
+    "sources": [
+     {
+      "id": "sup-duvidas-05",
+      "title": "Dúvidas e Perguntas Frequentes | Getnet",
+      "url": "https://site.getnet.com.br/duvidas/"
+     },
+     {
+      "id": "prod-todas-maquininhas-04",
+      "title": "Getnet | Maquininha de cartão: Melhores taxas e opções grátis",
+      "url": "https://site.getnet.com.br/todas-as-maquininhas/"
+     },
+     {
+      "id": "prod-get-smart-05",
+      "title": "Getnet | Maquininha POS 3G + Wi-Fi | 4020-4011",
+      "url": "https://site.getnet.com.br/maquininha/get-smart/"
+     },
+     {
+      "id": "sup-operacional-01",
+      "title": "Arquivos operacional - Getnet",
+      "url": "https://site.getnet.com.br/duvidas/operacional/"
+     },
+     {
+      "id": "sup-erro-adq-1-87-01",
+      "title": "Erro ADQ 1-87: erro com o registro do CHIP - Getnet",
+      "url": "https://site.getnet.com.br/get-ajuda-erros-maquininha/erro-adq-1-87/"
+     }
+    ],
+    "evidence": [
+     "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:05\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:07\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}], \"calculado_em_codigo\": [{\"lista\": \"terminals\", \"itens\": 2, \"por_status\": {\"offline\": {\"itens\": 1}, \"online\": {\"itens\": 1}}}], \"nota_calculo\": \"Totais e contagens acima foram calculados em código: use-os, não some nem conte.\"}",
+     "{\"ok\": false, \"needs_confirmation\": true, \"action_id\": \"A-8ecbf55a\", \"risk\": \"normal\", \"args\": {\"terminal_id\": \"T1988B\", \"reason\": \"sem_sinal\"}}",
+     "Dúvidas e Perguntas Frequentes | Getnet: A Get Smart aceita pagamento com auxilio emergencial?\nA Get Smart aceita pagamento com auxilio emergencial?\nSim, basta fazer o processo de pagamento com\n, selecionando a opção débito.\nComo insiro o Chip na minha máquina?\nComo insiro o Chip na minha máquina?\nSiga os passos a seguir:\n– Com a máquina desligada, abra a tampa na parte de trás\n– Insira o chip no local destinado, sinalizado com SIM1 ou SIM2, com a parte metálica voltada para baixo\n– Feche a tampa, ligue a máquina e aguarde a conexão de rede de dados\n– Com a indicação de rede conectada (2G ou 3G), a máquina está pronta para uso\n– Faça um teste de comunicação para verificar a conectividade do seu chip, seguindo os passos:",
+     "Getnet | Maquininha de cartão: Melhores taxas e opções grátis: Escolha a melhor forma para finalizar sua contratação\nFalar com Especialista\nContinuar no site\n* Horario de funcionamento:\nSeg à sex das 7h as 23h\nSábado das 9h as 15h\nRecebeu sua maquininha de outra pessoa?\nCadastre-se aqui para ativá-la em seu nome\nSe você já adquiriu sua maquininha em nosso site, não precisa realizar este cadastro\nQUERO ME CADASTRAR\nImpulsione suas vendas de onde estiver\nLeve sua maquininha e ganhe os serviços abaixo para acelerar suas vendas\nComece a vender agora e pague apenas a taxa de transação\nSimule suas vendas\nAqui, você encontra taxas especiais para todas as bandeiras de cartões.",
+     "Getnet | Maquininha POS 3G + Wi-Fi | 4020-4011: Contrato de Credenciamento\nPlataforma de aplicativos com os principais sofwares do mercado\nUma loja com mais de 150 soluções que agregam valor, agilidade e ec0nomia para o seu negócio. Soluções como cashback, giftback, controle de estoque, a sistemas de gestão completos para o seu negócio.\nNossa loja de aplicativos com os principais softwares do país, disponíveis para baixar e usar\nTransforme sua Get Smart em um terminal de autoatendimento\nSomente um aplicativo aberto: o usuário não poderá abrir outros aplicativo Senha necessária para ativar e desativar o Modo Quiosque e para acessar configurações do terminal Tela sempre ligada; Pronto para ser colocado em um tótem de autoatendimento.",
+     "Arquivos operacional - Getnet: Como ligo ou desligo minha máquina?\nComo ligo ou desligo minha máquina?\nConfira o modelo da sua maquininha e siga as instruções como mostra abaixo:\nLIGAR: Pressione a tecla verde DESLIGAR: Pressione a tecla “ . ” (ponto) e a tecla amarela ao mesmo tempo, durante 2 segundos\nLIGAR: Pressione a tecla “ ” (seta para cima) DESLIGAR: Pressione a tecla “ . ” (ponto) e a tecla amarela ao mesmo tempo, durante 2 segundos\nLIGAR E DESLIGAR: Conecte na tomada para ligar e retire da tomada para desligar\nLIGAR: Pressione a tecla verde durante 5 segundos DESLIGAR: Pressione a tecla vermelha durante 5 segundos\nO que é Chargeback?",
+     "Erro ADQ 1-87: erro com o registro do CHIP - Getnet: Erro ADQ 1-87: erro com o registro do CHIP\nQuando ocorre: No momento da transação.\n1. Confirme se o CHIP está devidamente inserido no terminal\n2. Clique na tecla de Função\n3. Insira o número 25\n4. A tela ficará verde confirmando a ação\n5. Insira a Senha do Lojista\n6. Selecione a Função 46\n7. A tela ficará verde confirmando a ação\n8. Selecione a Função 90\n9. A tela ficará verde confirmando a ação, novamente\n10. Faça uma venda teste.\nRespondeu à sua dúvida?\nVeja os nossos vídeos\nCom as principais dicas e informações:\nAinda não tem o Aplicativo Getnet Brasil?\nClique abaixo e baixe agora\nAcesse o manual da sua maquininha\nAcesse a nossa lista de manuais navegáveis.\nClique aqui · Fale já · Vamos começar",
+     "[policy:capabilities] Capacidades e política de ações deste assistente (gerado do registro de ferramentas do sistema):\n- Consultas que o assistente executa na hora, só com dados do cliente autenticado: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Ações que o assistente pode PROPOR; nada é executado antes de o cliente confirmar a proposta: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- Ações de risco alto: exigem a confirmação do cliente E, depois, a aprovação de um atendente humano (operador) antes de executar: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- Proposta de ação não confirmada expira em 15 minutos.\n- Encaminhar para um atendente humano: abre um caso com protocolo; a resposta do atendente aparece nesta mesma conversa.\n- Decisão sobre caso individual (contestação, bloqueio ou liberação de valor retido) é de um atendente humano; o assistente não decide.\n- Fora dessas ferramentas, o assistente não executa nenhuma ação no sistema.\n- Valores que as consultas e ações aceitam (lista fechada: outro valor não é aceito): get_transactions — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · get_settlements — período (padrão últimos 7 dias): hoje | ontem | últimos 7 dias | últimos 30 dias · open_support_ticket — motivo: sem conexão | sem sinal | erro de transação."
+    ],
+    "tool_calls": [
+     {
+      "name": "get_terminals",
+      "args": {},
+      "ok": true
+     },
+     {
+      "name": "open_support_ticket",
+      "args": {
+       "terminal_id": "T1988B",
+       "reason": "sem_sinal"
+      },
+      "ok": false
+     }
+    ],
+    "user_id": "cliente1988",
+    "business_date": "2026-11-04"
+   },
+   "veredito_do_juiz": {
+    "grounded": true,
+    "helpful": true,
+    "language_ok": true,
+    "leaks_other_customer": false,
+    "false_absence": false,
+    "score": 5,
+    "failure_type": "none",
+    "judge_date": "2026-11-04",
+    "answer_sha": "db036f80804c8433",
+    "prompt_sha": "7c1f413f2d56"
+   },
+   "juiz": {
+    "model": "claude-opus-5-5",
+    "prompt_sha": "7c1f413f2d56"
+   }
+  },
+  {
+   "id": "dependent-02",
+   "split": "dependent",
+   "plantada": false,
+   "selecao": "aleatoria",
+   "texto_sha": "2eee139586fc4394",
+   "bateria": "fdcb685",
+   "arquivo": "live_dependent.json",
+   "checks": {
+    "intent": true,
+    "route": true,
+    "handoff": true,
+    "handoff_outcome": true,
+    "language": true,
+    "numbers": true,
+    "claims": true,
+    "completed": true,
+    "facts": true,
+    "resolved": true
+   },
+   "entrada_do_juiz": {
+    "message": "Which of my terminals is offline and what steps should I follow to bring it back?",
+    "answer": "Your terminal T1988B (Get Clássica) is offline. It connects by chip, has no signal, and was last in contact on 04/11/2026 at 08:09. It has been offline for 5 hours. Your other terminal, T1988A (Get Smart), is online.\n\nI couldn't find a reconnection guide, so I can't give you the steps to bring T1988B back online. I can propose a support ticket for T1988B with the reason \"no signal\". It is only a proposal, and nothing happens until you confirm it. I can also hand your case to a human agent. Which would you like?",
+    "context": "- {\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:07\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:09\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}], \"calculado_em_codigo\": [{\"lista\": \"terminals\", \"itens\": 2, \"por_status\": {\"offline\": {\"itens\": 1}, \"online\": {\"itens\": 1}}}], \"nota_calculo\": \"Totais e contagens acima foram calculados em código: use-os, não some nem conte.\"}\n- [policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error.",
+    "source_ids": [],
+    "sources": [],
+    "evidence": [
+     "{\"ok\": true, \"data\": {\"terminals\": [{\"terminal_id\": \"T1988A\", \"model\": \"Get Smart\", \"status\": \"online\", \"connection\": \"wi-fi\", \"signal\": \"bom\", \"last_contact\": \"2026-11-04 13:07\"}, {\"terminal_id\": \"T1988B\", \"model\": \"Get Clássica\", \"status\": \"offline\", \"connection\": \"chip\", \"signal\": \"sem_sinal\", \"last_contact\": \"2026-11-04 08:09\", \"offline_for_hours\": 5, \"issue\": \"sem_sinal\"}], \"count\": 2, \"online_count\": 1, \"offline_count\": 1, \"offline_ids\": [\"T1988B\"]}, \"needs\": [{\"agent\": \"faq\", \"why\": \"maquininha offline: se a pergunta é sobre conexão ou sinal, o passo a passo vem do manual de conexão\", \"hint\": \"maquininha sem conexão chip wi-fi reiniciar\"}], \"calculado_em_codigo\": [{\"lista\": \"terminals\", \"itens\": 2, \"por_status\": {\"offline\": {\"itens\": 1}, \"online\": {\"itens\": 1}}}], \"nota_calculo\": \"Totais e contagens acima foram calculados em código: use-os, não some nem conte.\"}",
+     "[policy:capabilities] Capabilities and action policy of this assistant (generated from the system's tool registry):\n- Lookups the assistant runs immediately, only on the authenticated customer's data: get_transactions (Vendas e recusas do cliente autenticado no período, com totais, contagens e o significado de cada código de recusa já calculados.); get_settlements (Agenda de recebimentos das vendas aprovadas no período por modalidade, com a data de depósito calculada (Pix D+0, débito D+1 dia útil, crédito no plano de recebimento do lojista: 2 dias úteis ou 30 dias) e os totais.); get_terminals (Maquininhas do cliente autenticado: status, conexão, sinal, último contato e há quantas horas está offline (só quando offline).).\n- Actions the assistant can PROPOSE; nothing runs until the customer confirms the proposal: open_support_ticket (Propõe abrir um chamado técnico para uma maquininha do cliente. Exige confirmação.).\n- High-risk actions: they need the customer's confirmation AND then the approval of a human agent (operator) before they run: request_receivables_advance (Propõe antecipar recebíveis de crédito no valor pedido (em reais). Exige confirmação do cliente e aprovação de um atendente.).\n- An action proposal that is not confirmed expires after 15 minutes.\n- Hand the case to a human agent: opens a case with a ticket number; the agent's reply shows up in this same conversation.\n- A decision on an individual case (dispute, block or release of a held amount) belongs to a human agent; the assistant does not decide it.\n- Apart from these tools, the assistant does not carry out any action in the system.\n- Values the lookups and actions accept (closed list: no other value is accepted): get_transactions — period (default last 7 days): today | yesterday | last 7 days | last 30 days · get_settlements — period (default last 7 days): today | yesterday | last 7 days | last 30 days · open_support_ticket — reason: no connection | no signal | transaction error."
+    ],
+    "tool_calls": [
+     {
+      "name": "get_terminals",
+      "args": {},
+      "ok": true
+     }
+    ],
+    "user_id": "cliente1988",
+    "business_date": "2026-11-04"
+   },
+   "veredito_do_juiz": {
+    "grounded": true,
+    "helpful": true,
+    "language_ok": true,
+    "leaks_other_customer": false,
+    "false_absence": false,
+    "score": 4,
+    "failure_type": "none",
+    "judge_date": "2026-11-04",
+    "answer_sha": "2eee139586fc4394",
+    "prompt_sha": "7c1f413f2d56"
+   },
+   "juiz": {
+    "model": "claude-opus-5-5",
+    "prompt_sha": "7c1f413f2d56"
+   }
+  }
+ ]
+}

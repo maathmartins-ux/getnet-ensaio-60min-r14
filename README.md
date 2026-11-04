@@ -24,16 +24,17 @@ tabelas completas, em [docs/RESULTS.md](docs/RESULTS.md); o que veio do kit, em 
 <!-- scorecard:begin -->
 | medida | valor | como se mede |
 |---|---:|---|
-| Oficiais resolvidas (sem humano + todo fato + fonte + juiz: fundamentada) | 1.00 | resposta sem humano, com todo fato de referência do cenário, com fonte e que o juiz diz fundamentada (os 10 do enunciado; a regex sozinha não basta) |
-| Oficiais resolvidas: pass^k (todas as rodadas, com o juiz) | 1.00 | o mesmo, em todas as rodadas de cada cenário |
+| Oficiais resolvidas por completo (sem humano + todo fato + fonte + juiz: fundamentada; parcial fora) | 0.57 | resposta sem humano, com todo fato de referência do cenário, com fonte, que o juiz diz fundamentada e sem passo parcial (os 10 do enunciado; a regex sozinha não basta) |
+| Oficiais resolvidas: pass^k (todas as rodadas, com o juiz) | 0.50 | o mesmo, em todas as rodadas de cada cenário |
+| Oficiais resolvidas só em parte (resposta parcial; fora da manchete) | 0.30 | resolvida sem humano, mas com um passo parcial (a resposta diz o que a fonte não cobre): honesta, fora da manchete; somada a ela dá a fração com resposta útil em parte |
 | Juiz: respostas oficiais fundamentadas | 1.00 | juiz LLM com o texto das fontes: cada afirmação apoiada nelas |
 | Juiz: respostas oficiais úteis (helpful) | 1.00 | juiz LLM: a resposta resolve o que o lojista perguntou |
-| Memória ao vivo: pass@1 | 0.81 | conversas de vários turnos: o fato do turno anterior chega à resposta |
+| Memória ao vivo: pass@1 | 0.83 | conversas de vários turnos: o fato do turno anterior chega à resposta |
 | Humano no laço: resposta do operador no mesmo turno (split hitl) | 1.00 | operadora simulada responde o caso aberto no turno dentro da espera: a resposta dela e os passos pendentes saem no mesmo turno (a que chega depois vai pela retomada, uma vez só) |
 | Busca: Recall@3 | 0.89 | perguntas rotuladas olhando a fonte: a página certa entre as 3 primeiras |
-| Busca: MRR | 0.89 | posição média da primeira página certa (1 = sempre em primeiro) |
-| Turnos resolvidos sem humano (ao vivo, todos os splits) | 0.78 | todas as execuções ao vivo, de todos os splits: resposta sem pedir humano, sem erro e, se julgada, fundamentada pelo juiz (recusa do guardrail conta; o fato se confere só nas oficiais resolvidas) |
-| Custo por turno resolvido sem humano (ao vivo) | US$ 0.0303 | gasto ao vivo de todos os splits (inclusive turnos que foram ao humano e turnos anteriores das conversas) ÷ as execuções resolvidas da linha acima |
+| Busca: MRR | 0.90 | posição média da primeira página certa (1 = sempre em primeiro) |
+| Turnos resolvidos sem humano (ao vivo, todos os splits) | 0.85 | todas as execuções ao vivo, de todos os splits: resposta sem pedir humano, sem erro e, se julgada, fundamentada pelo juiz (recusa do guardrail conta; o fato se confere só nas oficiais resolvidas) |
+| Custo por turno resolvido sem humano (ao vivo) | US$ 0.0329 | gasto ao vivo de todos os splits (inclusive turnos que foram ao humano e turnos anteriores das conversas) ÷ as execuções resolvidas da linha acima |
 <!-- scorecard:end -->
 
 ### 0.1 Mapeamento do desafio
@@ -320,7 +321,7 @@ conta como **resolvida** sem humano, com todo fato de referência e com fonte.
 - **Humano**: conferência às cegas de respostas ao vivo na página de rotulagem (2 exemplos de treino com gabarito,
   depois cada resposta sem a nota automática nem o veredito do juiz), com a concordância entre as pessoas e com o juiz
   em `docs/RESULTS.md`; held-out escrito por autores cegos (passa/falha ponta a ponta; a intenção é diagnóstico).
-  No relógio rodaram: suíte offline, gate do eval, fumaça ao vivo dos oficiais e a bateria ao vivo integral (oficiais e memória com 3 repetições, juiz no mesmo processo) mais a ablação do replanejamento nas perguntas reais. Imagem, smoke do container e 2 réplicas (`check.py --docker --scale`) rodam no job `check` da CI do commit final (link no topo): o container da sessão de construção não tem docker. {{RODADA_2_E_VIDEO}}
+  No relógio rodaram: suíte offline, gate do eval, fumaça ao vivo dos oficiais e a bateria ao vivo integral (oficiais e memória com 3 repetições, juiz no mesmo processo) mais a ablação do replanejamento nas perguntas reais. Imagem, smoke do container e 2 réplicas (`check.py --docker --scale`) rodam no job `check` da CI do commit final (link no topo): o container da sessão de construção não tem docker. Não rodaram (cortes, com a causa): **rodada 2** — a rodada 1 começou 11 min depois do plano (o ambiente veio sem pytest/ruff e o 1º gate foi medido com a árvore suja, então o ao vivo recusou e o gate rodou de novo); sem rodada 2, nenhuma correção de código entrou depois da medição e não há antes × depois do juiz. **Vídeo** — a gravação falhou (caminho relativo recusado pelo script de captura) e o corte do vídeo venceu antes de uma nova tentativa; não há link de vídeo.
 
 ## 7. Perguntas da entrevista, respondidas
 
@@ -350,17 +351,25 @@ e como comparar pela primeira entrega.
 <!-- timeline:begin -->
 | hora (UTC; Brasília = UTC−3) | min | commit |
 |---|---:|---|
-| 12:57:25 | -16 | chore: repositório (antes do relógio) |
-| 13:13:44 | 0 | chore: scaffold from entregar-desafio-cronometrado kit v5.4.0 |
-| 13:18:01 | 4 | spec: oficiais (10 cenários literais com expect.facts e expect.entities) |
-| 13:20:32 | 7 | spec: taxonomia, desempates, parcial, standalone, CRM e 62 casos (replan 20, dependent 10, parallel 5, approval 5, hitl 6, memory 16) |
-| 13:28:40 | 15 | spec: approval-05 com valor dentro do crédito a receber do CRM (R$ 400,00 ≤ R$ 630,00; antes a tool recusaria o valor e o caso não mediria a aprovação) |
-| 13:38:30 | 25 | eval: fumaça ao vivo dos 10 oficiais (repeat 1, complete, US$ 0,24, intent 10/10) |
-| 13:43:31 | 30 | eval: conferência humana às cegas da fumaça dos oficiais (1 rotulador: 9 respostas julgadas, 1 "não sei"; humano aprova 9/9, checagem automática 9/9, concordância 1,0; sem rodada de consenso) |
-| 14:01:06 | 47 | eval: rodada 1 ao vivo integral (13 splits complete; official resolvidas 30/30 pass^3; juiz; ablação no_needs no split real) + FAILURE_MODES, DEMO e fix-ci |
-| 14:04:45 | 51 | merge maestra/fix-test: teste do modelo de README do kit pulado com o domínio montado |
+| 15:45:46 | -3 | chore: repositório (antes do relógio) |
+| 15:48:30 | 0 | chore: scaffold from entregar-desafio-cronometrado kit v5.6.1 (dominio montado) |
+| 15:57:17 | 9 | heldout: H1+H2 cego (80 casos, 2 autores) |
+| 15:57:18 | 9 | real: 40 perguntas reais de lojistas com link (títulos do Reclame Aqui) |
+| 15:57:24 | 9 | real: perguntas reais entram na bateria (split real, fora do gate) |
+| 16:00:12 | 12 | eval: fumaça ao vivo dos 10 oficiais (repeat 1) |
+| 16:02:27 | 14 | preflight: domínio do desafio (exemplo de intenção reescrito: colidia com heldout-H2-18) |
+| 16:04:47 | 16 | eval: amostra congelada da página de conferência humana (10 oficiais da fumaça 6cf19e0) |
+| 16:05:53 | 17 | gate: calibrado (MIN_SCORE 7.939) e eval offline verde, intent 100% n=97 |
+| 16:07:31 | 19 | gate: eval offline no código commitado |
+| 16:08:37 | 20 | docs: README e SOURCES coerentes com o domínio montado (procedência, conferência humana, docker na CI) |
+| 16:11:42 | 23 | eval: conferência humana às cegas da fumaça dos oficiais (Matheus: 10 respostas; humano aprova 10, checagem automática 9; diverge official-04) |
+| 16:15:17 | 27 | eval: 2ª rotuladora (Bianca) na conferência às cegas: as 2 pessoas concordam nas 10 (AC1 1,0; sem divergência, consenso desnecessário) |
+| 16:22:24 | 34 | eval: rodada 1 ao vivo integral (13 splits complete no fdcb685; juiz; ablação no_needs no split real) + FAILURE_MODES |
+| 16:22:29 | 34 | docs: DEMO com as respostas reais da rodada 1 |
+| 16:30:06 | 42 | merge: README coerente com o domínio montado |
+| 16:30:13 | 42 | merge: conferência humana às cegas (2 rotuladores) |
 
-Relógio: **47 min**, 63 commits (aqui os 9 marcos; todos em `docs/TIMESHEET.md`).
+Relógio: **42 min**, 17 commits.
 <!-- timeline:end -->
 
 </details>
@@ -375,6 +384,8 @@ Cada limitação com o efeito que ela tem e o que faltaria para resolver:
   rotuladores humanos e o antes × depois do juiz quando há 2ª rodada. Mecanismo conhecido da memória: a rota do
   seguimento curto de dado do cliente (`docs/FAILURE_MODES.md`, modo `intent`); corrigir pede exemplos de seguimento de
   estado no router e uma rodada ao vivo do split `memory`.
+- **Pix sem conta bancária (`official-04`, falha em todas as rodadas):** a resposta não traz o requisito de domicílio bancário e chave Pix ativa. Mecanismo: o motor já faz das palavras do cliente a 1ª busca (`src/app/agents.py`, `retrieve`), mas o trecho `sup-pix-09` abre com outra pergunta ("O botão Pix não está disponível…") e traz os requisitos no meio; na fusão das buscas ele fica fora dos trechos que o redator lê (nas 3 rodadas, `evals/results/live_official.json`, campo `source_ids`). Corrigir pede um cabeçalho contextual por trecho antes do embedding, medido no gold de busca (`evals/retrieval.d/official.jsonl`) e numa rodada ao vivo de `official` e `official-var`; ficou fora por não haver rodada 2.
+- **Perguntas reais só de títulos:** as 40 do split `real` vieram de títulos de reclamações públicas que a busca mostrou; o autor não conseguiu abrir as páginas, então o texto completo de cada reclamação não foi lido.
 - **Fora desta entrega:** a central `get-ajuda` (índice montado por JavaScript) entrou só pelos 3 artigos de erro ADQ
   (`docs/SOURCES.md`); manuais em PDF das maquininhas não foram ingeridos. Pedido de dado de outro lojista é recusado
   na entrada pelo guardrail, antes de qualquer tool, com a frase neutra de toda recusa (escolha registrada na SPEC,
