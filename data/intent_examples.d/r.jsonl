@@ -13,7 +13,7 @@
 {"text": "Cartão do cliente não passa de jeito nenhum", "intent": "troubleshoot"}
 {"text": "My POS keeps rebooting by itself", "intent": "troubleshoot"}
 {"text": "Como vai estar o tempo em Recife no sábado?", "intent": "general"}
-{"text": "How much is the pound in reais right now?", "intent": "general"}
+{"text": "Sterling to BRL conversion today, please", "intent": "general"}
 {"text": "Quero conversar com uma pessoa da equipe", "intent": "human_request"}
 {"text": "Connect me with someone from support staff", "intent": "human_request"}
 {"text": "O leitor de cartão parou: em qual aparelho foi e como eu destravo?", "intent": "troubleshoot"}
