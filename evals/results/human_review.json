@@ -12,8 +12,14 @@
    "nota": ""
   }
  ],
- "rotuladores": 1,
+ "rotuladores": 2,
  "por_rotulador": {
+  "bianca": {
+   "rotulos": 10,
+   "concordancia": 0.9,
+   "kappa": 0.0,
+   "heldout": null
+  },
   "matheus": {
    "rotulos": 10,
    "concordancia": 0.9,
@@ -22,15 +28,52 @@
   }
  },
  "heldout": null,
- "entre_humanos": null,
+ "entre_humanos": {
+  "rotuladores": [
+   "bianca",
+   "matheus"
+  ],
+  "comuns": 10,
+  "concordancia": 1.0,
+  "kappa": null,
+  "ac1": 1.0,
+  "divergem": [],
+  "antes": {
+   "n": 10,
+   "concordancia": 1.0,
+   "kappa": null,
+   "ac1": 1.0,
+   "por_pergunta": {
+    "c1": {
+     "n": 10,
+     "concordancia": 1.0,
+     "kappa": null,
+     "ac1": 1.0
+    },
+    "c2": {
+     "n": 10,
+     "concordancia": 1.0,
+     "kappa": null,
+     "ac1": 1.0
+    },
+    "c3": {
+     "n": 10,
+     "concordancia": 1.0,
+     "kappa": null,
+     "ac1": 1.0
+    }
+   }
+  },
+  "depois_do_consenso": null
+ },
  "juiz_x_humano": null,
  "adulteradas": null,
  "bateria": {
   "regra": "rótulo de pessoa só se compara com veredito do juiz, checagem ou outra pessoa sobre o MESMO texto: o da página congelada (evals/validation/<amostra>.json) ou, sem ela, a resposta de hoje em evals/results; rótulo de outro texto sai de toda conta e é listado",
   "rotulos_por_bateria": {
-   "a2aac83": 10
+   "a2aac83": 20
   },
-  "de_pagina_congelada": 10,
+  "de_pagina_congelada": 20,
   "do_texto_de_hoje": 0,
   "paginas": [
    "51221c7885f8"
